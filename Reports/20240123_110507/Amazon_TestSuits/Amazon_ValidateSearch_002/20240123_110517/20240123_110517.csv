@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_ValidateSearch_002,Chrome 120.0.0.0,,,23-01-2024 11:05:21,23-01-2024 11:08:57,3m - 35.766s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_002,Chrome 120.0.0.0,,,23-01-2024 11:05:21,23-01-2024 11:06:25,1m - 3.593s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,23-01-2024 11:05:22,23-01-2024 11:05:22,0.015s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,23-01-2024 11:05:22,23-01-2024 11:05:24,2.132s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,23-01-2024 11:05:24,23-01-2024 11:05:27,3.579s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon.com. Spend less. Smile more/span_Account  Lists""))",Chrome 120.0.0.0,,,23-01-2024 11:05:27,23-01-2024 11:05:39,11.372s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""yakatejasivaganeshtsg@gmail.com"")",Chrome 120.0.0.0,,,23-01-2024 11:05:39,23-01-2024 11:05:40,1.741s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue""))",Chrome 120.0.0.0,,,23-01-2024 11:05:40,23-01-2024 11:05:43,2.460s,PASSED
+"setEncryptedText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon Sign-In/input_Forgot your password_password""), ""ZGM6yvwC5UE/mm6ehKw+qw=="")",Chrome 120.0.0.0,,,23-01-2024 11:05:43,23-01-2024 11:05:43,0.617s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 120.0.0.0,,,23-01-2024 11:05:43,23-01-2024 11:05:44,0.377s,PASSED
+"selectOptionByLabel(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon.com. Spend less. Smile more/Category_Elements""), category, false)",Chrome 120.0.0.0,,,23-01-2024 11:05:44,23-01-2024 11:06:03,19.473s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), items)",Chrome 120.0.0.0,,,23-01-2024 11:06:03,23-01-2024 11:06:05,2.061s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 120.0.0.0,,,23-01-2024 11:06:05,23-01-2024 11:06:25,19.421s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,23-01-2024 11:06:25,23-01-2024 11:06:25,0.211s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,23-01-2024 11:06:25,23-01-2024 11:06:25,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_002,Chrome 120.0.0.0,,,23-01-2024 11:06:25,23-01-2024 11:07:36,1m - 11.429s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,23-01-2024 11:06:25,23-01-2024 11:06:25,0.000s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,23-01-2024 11:06:25,23-01-2024 11:06:26,0.750s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,23-01-2024 11:06:26,23-01-2024 11:06:33,7.333s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon.com. Spend less. Smile more/span_Account  Lists""))",Chrome 120.0.0.0,,,23-01-2024 11:06:33,23-01-2024 11:07:09,35.892s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""yakatejasivaganeshtsg@gmail.com"")",Chrome 120.0.0.0,,,23-01-2024 11:07:09,23-01-2024 11:07:11,1.468s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue""))",Chrome 120.0.0.0,,,23-01-2024 11:07:11,23-01-2024 11:07:13,2.336s,PASSED
+"setEncryptedText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon Sign-In/input_Forgot your password_password""), ""ZGM6yvwC5UE/mm6ehKw+qw=="")",Chrome 120.0.0.0,,,23-01-2024 11:07:13,23-01-2024 11:07:13,0.582s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 120.0.0.0,,,23-01-2024 11:07:13,23-01-2024 11:07:14,0.367s,PASSED
+"selectOptionByLabel(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon.com. Spend less. Smile more/Category_Elements""), category, false)",Chrome 120.0.0.0,,,23-01-2024 11:07:14,23-01-2024 11:07:20,6.615s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), items)",Chrome 120.0.0.0,,,23-01-2024 11:07:20,23-01-2024 11:07:22,1.502s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 120.0.0.0,,,23-01-2024 11:07:22,23-01-2024 11:07:36,14.361s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,23-01-2024 11:07:36,23-01-2024 11:07:36,0.195s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,23-01-2024 11:07:36,23-01-2024 11:07:36,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_002,Chrome 120.0.0.0,,,23-01-2024 11:07:37,23-01-2024 11:08:57,1m - 20.405s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,23-01-2024 11:07:37,23-01-2024 11:07:37,0.000s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,23-01-2024 11:07:37,23-01-2024 11:07:37,0.779s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,23-01-2024 11:07:37,23-01-2024 11:07:40,2.794s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon.com. Spend less. Smile more/span_Account  Lists""))",Chrome 120.0.0.0,,,23-01-2024 11:07:40,23-01-2024 11:07:59,19.311s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""yakatejasivaganeshtsg@gmail.com"")",Chrome 120.0.0.0,,,23-01-2024 11:07:59,23-01-2024 11:08:01,2.032s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue""))",Chrome 120.0.0.0,,,23-01-2024 11:08:01,23-01-2024 11:08:05,3.637s,PASSED
+"setEncryptedText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon Sign-In/input_Forgot your password_password""), ""ZGM6yvwC5UE/mm6ehKw+qw=="")",Chrome 120.0.0.0,,,23-01-2024 11:08:05,23-01-2024 11:08:06,0.592s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 120.0.0.0,,,23-01-2024 11:08:06,23-01-2024 11:08:06,0.363s,PASSED
+"selectOptionByLabel(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon.com. Spend less. Smile more/Category_Elements""), category, false)",Chrome 120.0.0.0,,,23-01-2024 11:08:06,23-01-2024 11:08:44,38.356s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), items)",Chrome 120.0.0.0,,,23-01-2024 11:08:44,23-01-2024 11:08:46,1.498s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/Category_Elements/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 120.0.0.0,,,23-01-2024 11:08:46,23-01-2024 11:08:57,10.834s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,23-01-2024 11:08:57,23-01-2024 11:08:57,0.193s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,23-01-2024 11:08:57,23-01-2024 11:08:57,0.000s,PASSED

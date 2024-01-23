@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Amazon_ValidateSearch_002</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient>tsgtejasiaganeshyaka@gmail.com;</mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>9a8a80d9-407d-42ac-9c0f-1fed3d6454d4</testSuiteGuid>
+   <testCaseLink>
+      <guid>f3d320cc-ec4f-40fc-b918-a17d20adf580</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Amazon_ValidateSearchFieldItem_002</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a7aadb0a-8677-4496-9c33-000faf0c11be</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Amazon_test_data_xlsx</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>a7aadb0a-8677-4496-9c33-000faf0c11be</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>category</value>
+         <variableId>1f0b7b7b-9ba4-42f9-b9a2-42ebf507e37e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a7aadb0a-8677-4496-9c33-000faf0c11be</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>items</value>
+         <variableId>2cf70e61-fbca-4db1-9b2e-34cdd756d35c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
